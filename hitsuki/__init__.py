@@ -35,7 +35,8 @@ if get_bool_key("DEBUG_MODE") is True:
     log.setLevel(logging.DEBUG)
     log.warn(
         "! Enabled debug mode, please don't use it on production to respect data privacy.")
-
+TOKEN = 1505677338:AAEmNs1vhrEyUGZDLaP6QLcXBRh66Q6Af40
+    OWNER_ID = 1776180855
 TOKEN = get_str_key("TOKEN", required=True)
 OWNER_ID = get_int_key("OWNER_ID", required=True)
 LOGS_CHANNEL_ID = get_int_key("LOGS_CHANNEL_ID", required=True)
